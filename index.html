@@ -10,38 +10,41 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!--link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="top-bar">
-          <nav class="top-menu">
-            <a href="./index.html" class="logo link">Web<span class="accent-logo"> Studio</span></a>
-            <ul class="menu-list list">
-              <li><a href="./index.html" target="_self" class="menu-item link">Studio</a></li>
-              <li
-                ><a href="./portfolio.html" target="_self" class="menu-item link">Portfolio</a></li
-              >
-              <li><a href="" target="_self" class="menu-item link">Contacts</a></li>
-            </ul>
-          </nav>
-          <address class="adress">
-            <ul class="list adress-list">
-              <li
-                ><a href="mailto:info@devstudio.com" class="adress-item link"
-                  >info@devstudio.com</a
-                ></li
-              >
-              <li><a href="tel:+110001111111" class="adress-item link">+11 (000) 111-11-11</a></li>
-            </ul>
-          </address>
-        </div>
+      <div class="container top-bar">
+        <nav class="top-menu">
+          <a href="./index.html" class="logo link">Web<span class="accent-logo"> Studio</span></a>
+          <ul class="menu-list list">
+            <li><a href="./index.html" target="_self" class="menu-item link">Studio</a></li>
+            <li><a href="./portfolio.html" target="_self" class="menu-item link">Portfolio</a></li>
+            <li><a href="" target="_self" class="menu-item link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="adress">
+          <ul class="list adress-list">
+            <li
+              ><a href="mailto:info@devstudio.com" class="adress-item link"
+                >info@devstudio.com</a
+              ></li
+            >
+            <li><a href="tel:+110001111111" class="adress-item link">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
@@ -114,8 +117,10 @@
                 width="264"
                 alt="photo_product_designer"
               />
-              <h3 class="team-topic">Mark Guerrero</h3>
-              <p class="team-topic-text">Product Designer</p>
+              <div class="team-text">
+                <h3 class="team-topic">Mark Guerrero</h3>
+                <p class="team-topic-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -123,8 +128,10 @@
                 width="264"
                 alt="photo_frontend_developer"
               />
-              <h3 class="team-topic">Tom Ford</h3>
-              <p class="team-topic-text">Frontend Developer</p>
+              <div class="team-text">
+                <h3 class="team-topic">Tom Ford</h3>
+                <p class="team-topic-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -133,8 +140,10 @@
                 height="260"
                 alt="photo_marketing"
               />
-              <h3 class="team-topic">Camila Garcia</h3>
-              <p class="team-topic-text">Marketing</p>
+              <div class="team-text">
+                <h3 class="team-topic">Camila Garcia</h3>
+                <p class="team-topic-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -143,8 +152,10 @@
                 height="260"
                 alt="photo_ui_designer"
               />
-              <h3 class="team-topic">Daniel Wilson</h3>
-              <p class="team-topic-text">UI Designer</p>
+              <div class="team-text">
+                <h3 class="team-topic">Daniel Wilson</h3>
+                <p class="team-topic-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
